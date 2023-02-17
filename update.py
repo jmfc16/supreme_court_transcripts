@@ -11,7 +11,7 @@ import traceback
 import requests
 from ratelimit import limits, sleep_and_retry
 
-YEARS_TO_GO_BACK = 2
+YEARS_TO_GO_BACK = 3
 
 
 @sleep_and_retry
